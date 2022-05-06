@@ -1,4 +1,8 @@
-﻿.hobbies h1 {
+﻿* {
+    color: white;
+}
+
+.hobbies h1 {
     text-align: center;
     justify-items: center;
 }
@@ -11,7 +15,7 @@
 }
 
 .section_grid_item2 {
-    background-color: rgb(255, 255, 255);
+    
     border-radius: 6px;
     padding: 5%;
     justify-items: center;
@@ -22,11 +26,13 @@
     height: 480px;
     justify-items: center;
     display: inline-block;
+    border-radius: 20px;
 }
 
 .section_item_text2 p {
     text-align: center;
     justify-items: center;
+    font-size: 25px;
 }
 
 .btn {
@@ -44,6 +50,7 @@
     cursor: pointer;
     transition: color 0.4s linear;
     position: relative;
+    font-size: 25px;
 }
 
     .btn:hover {

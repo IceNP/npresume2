@@ -1,4 +1,8 @@
-﻿.video1 {
+﻿* {
+    color: white;
+}
+
+.video1 {
     margin-left: auto;
     margin-right: auto;
     /*background-color: rgb(218, 216, 216);*/
@@ -11,10 +15,10 @@
 
     .video1 iframe {
         margin-left: 8%;
+        border-radius: 20px;
     }
 
     .video1 h1 {
         text-align: center;
         margin-top: 5%;
-        color: rgb(39, 39, 39);
     }

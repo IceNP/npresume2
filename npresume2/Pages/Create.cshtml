@@ -5,26 +5,26 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Registration</h1>
+<h1>Contact me</h1>
 
-<h4>Be our member</h4>
+<h4>Please, Fill your infoformation</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="NpRegistration.Npname" class="control-label"></label>
+                <label asp-for="NpRegistration.Npname" class="control-label">Name</label>
                 <input asp-for="NpRegistration.Npname" class="form-control" />
                 <span asp-validation-for="NpRegistration.Npname" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NpRegistration.Email" class="control-label"></label>
+                <label asp-for="NpRegistration.Email" class="control-label">E-mail</label>
                 <input asp-for="NpRegistration.Email" class="form-control" />
                 <span asp-validation-for="NpRegistration.Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NpRegistration.Phonenumber" class="control-label"></label>
+                <label asp-for="NpRegistration.Phonenumber" class="control-label">Phone number</label>
                 <input asp-for="NpRegistration.Phonenumber" class="form-control" />
                 <span asp-validation-for="NpRegistration.Phonenumber" class="text-danger"></span>
             </div>
@@ -33,6 +33,11 @@
             </div>
         </form>
     </div>
+
+        <div class="myinfo col-md-4">
+            <h2>My info</h2>
+            <p>Tel:091-2345678</p>
+        </div>
 </div>
 
 <div>
