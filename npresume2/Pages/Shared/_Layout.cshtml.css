@@ -58,13 +58,13 @@ body {
     align-items: center;
 }
 
-    .menu ul {
-        display: flex;
-    }
+.menu ul {
+    display: flex;
+}
 
-        .menu ul li {
-            padding: 25px;
-        }
+.menu ul li {
+    padding: 25px;
+}
 
 * li {
     list-style: none;
