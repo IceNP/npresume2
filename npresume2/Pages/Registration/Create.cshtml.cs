@@ -39,7 +39,7 @@ namespace npresume2.Pages.Registration
             _context.NpRegistration.Add(NpRegistration);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Create");
         }
     }
 }
