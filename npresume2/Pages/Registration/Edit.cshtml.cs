@@ -67,7 +67,7 @@ namespace npresume2.Pages.Registration
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Edit");
         }
 
         private bool NpRegistrationExists(int id)
