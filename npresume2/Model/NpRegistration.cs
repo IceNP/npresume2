@@ -6,7 +6,7 @@ namespace npresume2.Model
     {
         [Key]
         public int Npid { get; set; }
-        public string Npnameee { get; set; }
+        public string Npnameeee { get; set; }
         public string? Email { get; set; }
         public string? Phonenumber { get; set; }
     }
